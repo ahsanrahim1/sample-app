@@ -1,6 +1,6 @@
 class PagesController < ApplicationController
   def hello_method
-    render json: {message: "Hello"}
+    render json: {message: "Hello, My name is Ahsan"}
   end
 
   def test_method
